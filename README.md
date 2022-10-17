@@ -1,7 +1,8 @@
 # Microsoft-Defender-RTP-stop
 ### _Windows Task to disable Microsoft Defender Real-time protection automatically and survive restart, updates, scans, etc._
 
-Configuration details from the Microsoft-Windows-Windows Defender/Operational log:
+Configuration details from the _Microsoft-Windows-Windows Defender/Operational_ log:
+
 _Endpoint Protection client health report (time in UTC):
  	Platform version: 4.18.2209.7
  	Engine version: 1.1.19700.3

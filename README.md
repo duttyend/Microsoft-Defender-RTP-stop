@@ -11,3 +11,6 @@
 - Extreme low chances of breaking anything since there is no hack involved (permission bypass, regedit modifications, etc.)
 - Very easy to uninstall / pause temporarily: just disable or delete the task
 - Should still after major Windows updates, except if Microsoft changes things significantly
+
+### Credits
+[Duttyend](https://github.com/duttyend/Microsoft-Defender-RTP-stop)

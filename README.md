@@ -1,4 +1,4 @@
-# Microsoft-Defender-RTP-stop
+# Microsoft Defender Real-Time Protection stop
 
 ### Usage guide
 - Make sure you disable tamper protection first in: Windows Security → Virus and threat protection → Virus and threat protection settings (otherwise the task won't work: tamper protection blocks apps from changing real-time protection settings, including powershell)

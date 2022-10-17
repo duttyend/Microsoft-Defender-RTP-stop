@@ -1,29 +1,13 @@
 # Microsoft-Defender-RTP-stop
-### _Windows Task to disable Microsoft Defender Real-time protection automatically and survive restart, updates, scans, etc._
 
-Configuration details from the _Microsoft-Windows-Windows Defender/Operational_ log:
+### Usage guide
+- Make sure you disable tamper protection first in: Windows Security → Virus and threat protection → Virus and threat protection settings (otherwise the task won't work: tamper protection blocks apps from changing real-time protection settings, including powershell)
+- Manually disable real-time protection from Windows Security (this should be the last time you need to do it)
+- Import the task and make sure to change the user account: change user or Group... → Advanced → Find Now → 'pick your username' → OK
 
-_Endpoint Protection client health report (time in UTC):
- 	Platform version: 4.18.2209.7
- 	Engine version: 1.1.19700.3
- 	Network Realtime Inspection engine version: 0.0.0.0
- 	Antivirus security intelligence version: 1.377.375.0
- 	Antispyware security intelligence version: 1.377.375.0
- 	Network Realtime Inspection security intelligence version: 0.0.0.0
-    RTP state: Disabled
- 	OA state: Disabled
- 	IOAV state: Disabled
- 	BM state: Disabled
- 	Antivirus security intelligence age: 0
- 	Antispyware security intelligence age: 0
- 	Last quick scan age: 0
- 	Last full scan age: 4294967295
- 	Antivirus security intelligence creation time: 17/10/2022 08:19:25
- 	Antispyware security intelligence creation time: 17/10/2022 08:19:25
- 	Last quick scan start time: 17/10/2022 08:33:09
- 	Last quick scan end time: 17/10/2022 08:33:28
- 	Last quick scan source: 1
- 	Last full scan start time: 01/01/1601 00:00:00
- 	Last full scan end time: 01/01/1601 00:00:00
- 	Last full scan source: 0
- 	Product status: 0x00080000_
+### Benefits from this approach compared to alternatives
+- Only uses official Windows features and components (i.e. Task Scheduler and Powershell)
+- Very low on resources
+- Extreme low chances of breaking anything since there is no hack involved (permission bypass, regedit modifications, etc.)
+- Very easy to uninstall / pause temporarily: just disable or delete the task
+- Should still after major Windows updates, except if Microsoft changes things significantly

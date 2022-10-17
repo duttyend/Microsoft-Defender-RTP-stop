@@ -1,16 +1,24 @@
 # Microsoft Defender Real-Time Protection stop
 
 ### Usage guide
-- Make sure you disable tamper protection first in: Windows Security → Virus and threat protection → Virus and threat protection settings (otherwise the task won't work: tamper protection blocks apps from changing real-time protection settings, including powershell)
-- Manually disable real-time protection from Windows Security (this should be the last time you need to do it)
-- Import the task and make sure to change the user account: change user or Group... → Advanced → Find Now → 'pick your username' → OK
+- Make sure to disable tamper protection first. For that, go to: Windows Security → Virus and threat protection → Virus and threat protection settings (otherwise the task won't work: tamper protection blocks apps from changing real-time protection settings, including PowerShell).
+- Manually disable real-time protection from Windows Security (this should be the last time you need to do it).
+- Import the task.
+
+### Purpose of disabling RTP
+- No more CPU usage and disk usage from "Antimalware Service Executable".
+- Improves privacy.
+
+### Drawbacks
+- Obviously, disabling RTP will decrease security; therefore, it's highly recommended to use a firewall in whitelist mode ([simplewall](https://github.com/henrypp/simplewall/) is a great tool for that) as well as scanning your system regularly, especially files from the internet.
+- It also involves to disable Tamper protection.
 
 ### Benefits from this approach compared to alternatives
-- Only uses official Windows features and components (i.e. Task Scheduler and Powershell)
-- Very low on resources
-- Extreme low chances of breaking anything since there is no hack involved (permission bypass, regedit modifications, etc.)
-- Very easy to uninstall / pause temporarily: just disable or delete the task
-- Should still after major Windows updates, except if Microsoft changes things significantly
+- Only uses official Windows features and components (i.e. Task Scheduler and PowerShell).
+- Very low on resources.
+- Extremely low chances of breaking anything since there is no hack involved (permission bypass, regedit modifications, etc.). Alternatives ofen break Windows Security completely whereas this allows to keep other features on (except tamper protection, as previously mentioned).
+- Very easy to uninstall / pause temporarily: just disable or delete the task.
+- Should still after major Windows updates, except if Microsoft changes things significantly.
 
 ### Credits
 [Duttyend](https://github.com/duttyend/Microsoft-Defender-RTP-stop)

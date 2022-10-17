@@ -10,7 +10,7 @@
 - Improves privacy.
 
 ### Drawbacks
-- Obviously, disabling RTP will decrease security; therefore, it's highly recommended to use a firewall in whitelist mode [simplewall](https://github.com/henrypp/simplewall/) is a great tool for that) as well as scanning your system regularly, especially files from the internet.
+- Obviously, disabling RTP will decrease security; therefore, it's highly recommended to use a firewall in whitelist mode ([simplewall](https://github.com/henrypp/simplewall/) is a great tool for that) as well as scanning your system regularly, especially files from the internet.
 - It also involves to disable Tamper protection.
 
 ### Benefits from this approach compared to alternatives

@@ -5,8 +5,8 @@
 1. Make sure to disable tamper protection first. For that, go to: Windows Security → Virus and threat protection → Virus and threat protection settings (otherwise the task won't work: tamper protection blocks apps from changing real-time protection settings, including PowerShell).
 2. Manually disable real-time protection from Windows Security (this should be the last time you need to do it).
 3. Import the task.
-- **Uninstall**
-1. If you want to use Real-Time Protection again, just disable/delete the imported task in Task Scheduler. Don't forget to turn back on Tamper protection for increased security.
+- **Uninstall**  
+If you want to use Real-Time Protection again, just disable/delete the imported task in Task Scheduler. Don't forget to turn back on Tamper protection for increased security.
 
 ### Purpose of disabling RTP
 - No more CPU usage and disk usage from "Antimalware Service Executable".
@@ -32,5 +32,5 @@
 
 
 ### Credits
-[Duttyend](https://github.com/duttyend/Microsoft-Defender-RTP-stop)
+[Duttyend](https://github.com/duttyend/)  
 [Tom4tot](https://github.com/Tom4tot/)

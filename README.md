@@ -22,8 +22,8 @@
 
 ### Additional information
 - https://en.m.wikipedia.org/wiki/Windows_Task_Scheduler#Column_'Last_Result' (error codes and general information)
-- https://www.reddit.com/r/sysadmin/comments/mnej84/windows_scheduled_tasks_is_it_best_to_use_system/
-- https://ss64.com/nt/schtasks.html
+- https://www.reddit.com/r/sysadmin/comments/mnej84/windows_scheduled_tasks_is_it_best_to_use_system/ (best practice regarding User choice)
+- https://ss64.com/nt/schtasks.html (commands and general documentation)
 
 ### Credits
 [Duttyend](https://github.com/duttyend/Microsoft-Defender-RTP-stop)

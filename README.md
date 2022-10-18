@@ -15,6 +15,7 @@
 
 ### Benefits from this approach compared to alternatives
 - Only uses official Windows features and components (i.e. Task Scheduler and PowerShell).
+- Survive restart, updates, scans, etc. 
 - Very low on resources.
 - Extremely low chances of breaking anything since there is no hack involved (permission bypass, regedit modifications, etc.). Alternatives often break Windows Security completely whereas this allows to keep other features on (except tamper protection, as previously mentioned).
 - Very easy to uninstall / pause temporarily: just disable or delete the task.

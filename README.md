@@ -20,5 +20,10 @@
 - Very easy to uninstall / pause temporarily: just disable or delete the task.
 - Should still work after major Windows updates, except if Microsoft changes things significantly.
 
+### Additional information
+- https://en.m.wikipedia.org/wiki/Windows_Task_Scheduler#Column_'Last_Result' (error codes and general information)
+- https://www.reddit.com/r/sysadmin/comments/mnej84/windows_scheduled_tasks_is_it_best_to_use_system/ (best practice regarding User choice)
+- https://ss64.com/nt/schtasks.html (commands and general documentation)
+
 ### Credits
 [Duttyend](https://github.com/duttyend/Microsoft-Defender-RTP-stop)

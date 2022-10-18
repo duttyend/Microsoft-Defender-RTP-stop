@@ -23,7 +23,7 @@
 ### Additional information
 - [learn.microsoft.com - Task Scheduler Overview](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc721871(v=ws.11)) - official documentation
 - [Wikipedia - Windows Task Scheduler](https://en.m.wikipedia.org/wiki/Windows_Task_Scheduler#Column_'Last_Result') - error codes and general information
-- [Reddit - Windows Scheduled Tasks - Is it best to use SYSTEM account as the user to run the task where possible? What is a good practice around using an account?](https://www.reddit.com/r/sysadmin/comments/mnej84/windows_scheduled_tasks_is_it_best_to_use_system/) - best practice regarding User choice
+- [Reddit - Windows Scheduled Tasks - Is it best to use SYSTEM account as the user to run the task where possible? What is a good practice around using an account?](https://www.reddit.com/r/sysadmin/comments/mnej84/windows_scheduled_tasks_is_it_best_to_use_system/) - best practice regarding user choice
 - [ss64.com - SCHTASKS](https://ss64.com/nt/schtasks.html) - commands and general documentation
 
 ### Credits

@@ -1,5 +1,10 @@
 # Microsoft Defender Real-Time Protection stop
 
+### Project purpose
+- This is the easiest and cleanest way of disabling RTP on Home edition of Windows.
+- It provides an alternative to the already existing ways of disabling RTP
+- For a comprehensive comparison of each alternative, including pros and cons, check [this page](https://github.com/Tom4tot/Disable-Microsoft-Defender-Real-Time-Protection-solutions).
+
 ### Usage guide
 - **Setup**
 1. Make sure to disable tamper protection first. For that, go to: Windows Security → Virus and threat protection → Virus and threat protection settings (otherwise the task won't work: tamper protection blocks apps from changing real-time protection settings, including PowerShell).
@@ -16,7 +21,7 @@ If you want to use Real-Time Protection again, just disable/delete the imported 
 - Obviously, disabling RTP will decrease security; therefore, it's highly recommended to use a firewall in whitelist mode ([simplewall](https://github.com/henrypp/simplewall/) is a great tool for that) as well as scanning your system regularly, especially files from the internet.
 - It also involves to disable Tamper protection.
 
-### Benefits from this approach compared to alternatives
+### Features
 - Only uses official Windows features and components (i.e. Task Scheduler and PowerShell).
 - Survive restart, updates, scans, etc. 
 - Very low on resources.
